@@ -24,6 +24,7 @@ $(call inherit-product, device/oneplus/fajita/device.mk)
 # Inherit some common Octavi stuff.
 $(call inherit-product, vendor/octavi/config/common_full_phone.mk)
 
+SELINUX_IGNORE_NEVERALLOWS := true
 
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
